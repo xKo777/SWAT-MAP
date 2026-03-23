@@ -325,3 +325,40 @@ button.warning:hover {
     right: 10px;
   }
 }
+
+/* Verbesserte Popup-Darstellung */
+.leaflet-popup-content {
+    margin: 12px;
+    min-width: 200px;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 12px;
+    background: #1e1e1e;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.leaflet-popup-tip {
+    background: #1e1e1e;
+}
+
+/* Dynamische Marker beim Zoomen */
+.custom-marker div {
+    transition: all 0.2s ease !important;
+}
+
+/* Punkte-Liste Scrollbar */
+#pointList::-webkit-scrollbar {
+    width: 6px;
+}
+
+#pointList::-webkit-scrollbar-track {
+    background: #2a2a2a;
+    border-radius: 3px;
+}
+
+#pointList::-webkit-scrollbar-thumb {
+    background: #ff9800;
+    border-radius: 3px;
+}
