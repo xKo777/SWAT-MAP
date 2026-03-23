@@ -1,12 +1,12 @@
 // ============ FIREBASE KONFIGURATION ============
 // ⚠️ HIER DEINE FIREBASE-KONFIGURATION EINFÜGEN! ⚠️
 const firebaseConfig = {
-    apiKey: "DEIN_API_KEY",
-    authDomain: "DEIN_AUTH_DOMAIN",
-    projectId: "DEIN_PROJECT_ID",
-    storageBucket: "DEIN_STORAGE_BUCKET",
-    messagingSenderId: "DEIN_SENDER_ID",
-    appId: "DEIN_APP_ID"
+  apiKey: "AIzaSyCXJoRlLQloM9ODw23dGYpl5r3GWR5HZgA",
+  authDomain: "swat-map-a8286.firebaseapp.com",
+  projectId: "swat-map-a8286",
+  storageBucket: "swat-map-a8286.firebasestorage.app",
+  messagingSenderId: "381226507900",
+  appId: "1:381226507900:web:cf2426af92f9d1c557b3f9"
 };
 
 // Firebase initialisieren
